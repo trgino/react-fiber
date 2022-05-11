@@ -1,0 +1,17 @@
+{
+    "name": "trgino/react-fiber",
+    "description": "ReactPHP Fiber PHP 8.1 +",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "react/event-loop": "^1",
+        "react/promise": "^2.2",
+		"react/http": "^1.1",
+        "react/promise-stream": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Trgino\\ReactFiber\\": "src"
+        }
+    }
+}
